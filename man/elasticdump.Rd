@@ -4,7 +4,7 @@
 \alias{elasticdump}
 \title{Perform a basic elasticdump call}
 \usage{
-elasticdump(src, dest, limit = 100, type = "data")
+elasticdump(src, dest, limit = 100, type = "data", rm_dest = TRUE)
 }
 \arguments{
 \item{src}{The data source; may be http or file (see Details)}
